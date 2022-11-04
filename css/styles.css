@@ -1,0 +1,149 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+p{
+  color: #787A91;
+}
+                                 /* Heading */
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #fff;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+                               /* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+                               /* Section Colors */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background: #fff;
+}
+
+
+                              /*Title Section*/
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.image-title{
+  transform: rotate(25deg);
+  position: absolute;
+width: 300px;
+}
+
+                         /* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+                                /*Download Button */
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+                                /* Feature Section */
+#features{
+background: #fff;
+position: relative;
+}
+.feature-box{
+  padding: 5%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.icon{
+  padding-bottom: 5%;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+                                   /* Testimonials Section*/
+
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.image-testimonial{
+  border-radius: 100%;
+  width: 100px;
+  margin-top: 50px;
+}
+
+                                     /* Press Section */
+#press{
+background-color: #ef8172;
+}
+.image-press{
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+
+                                   /* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.animal-text{
+  font-size: 1.5rem;
+}
+.card{
+  margin-top: 90px;
+}
+                                                /* cta Section*/
+                                                /* Footer Section */
+/* Here, all the styles are inherited from Body, h1-h6, p, Headings, Containers and Section-Colors. */
+
+.social-icons{
+  margin: 20px 10px;
+}
+.social-icons:hover{
+  color: grey;
+}
+                                              /* Media Query */
+@media (max-width: 1028px) {
+  #title .container-fluid{
+    text-align: center;
+  }
+  .image-title{
+    position: static;
+    transform: rotate(0);
+  }
+}
